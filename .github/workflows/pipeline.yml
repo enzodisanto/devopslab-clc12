@@ -30,7 +30,7 @@ jobs:
         with:
           registry: '${{ vars.GOOGLE_ARTIFACT }}'
           username: _json_key
-          password: '${{ secrets.GOOGLE_SECRET }}'
+          password: '${{ secrets.GOOGLE_SECRET_GABI }}'
 
       - name: Build Image
         run: |
